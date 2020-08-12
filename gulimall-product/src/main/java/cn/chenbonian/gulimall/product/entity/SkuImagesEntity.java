@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 /**
  * sku图片
- * 
+ *
  * @author chenbonian
  * @email 284049379@qq.com
  * @date 2020-08-11 23:38:50
@@ -16,28 +16,16 @@ import java.io.Serializable;
 @Data
 @TableName("pms_sku_images")
 public class SkuImagesEntity implements Serializable {
-	private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-	/**
-	 * id
-	 */
-	@TableId
-	private Long id;
-	/**
-	 * sku_id
-	 */
-	private Long skuId;
-	/**
-	 * 图片地址
-	 */
-	private String imgUrl;
-	/**
-	 * 排序
-	 */
-	private Integer imgSort;
-	/**
-	 * 默认图[0 - 不是默认图，1 - 是默认图]
-	 */
-	private Integer defaultImg;
-
+  /** id */
+  @TableId private Long id;
+  /** sku_id */
+  private Long skuId;
+  /** 图片地址 */
+  private String imgUrl;
+  /** 排序 */
+  private Integer imgSort;
+  /** 默认图[0 - 不是默认图，1 - 是默认图] */
+  private Integer defaultImg;
 }

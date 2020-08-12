@@ -18,7 +18,7 @@ import java.util.Map;
  * @date 2020-08-11 23:38:49
  */
 @RestController
-@RequestMapping("porduct/spucomment")
+@RequestMapping("/porduct/spucomment")
 public class SpuCommentController {
   @Autowired private SpuCommentService spuCommentService;
 

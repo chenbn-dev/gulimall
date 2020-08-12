@@ -18,7 +18,7 @@ import java.util.Map;
  * @date 2020-08-11 23:38:49
  */
 @RestController
-@RequestMapping("porduct/categorybrandrelation")
+@RequestMapping("/porduct/categorybrandrelation")
 public class CategoryBrandRelationController {
   @Autowired private CategoryBrandRelationService categoryBrandRelationService;
 

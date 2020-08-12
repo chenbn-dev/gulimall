@@ -18,7 +18,7 @@ import java.util.Map;
  * @date 2020-08-11 23:38:50
  */
 @RestController
-@RequestMapping("porduct/skuimages")
+@RequestMapping("/porduct/skuimages")
 public class SkuImagesController {
   @Autowired private SkuImagesService skuImagesService;
 
