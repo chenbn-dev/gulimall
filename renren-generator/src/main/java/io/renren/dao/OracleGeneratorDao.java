@@ -9,6 +9,4 @@ import org.apache.ibatis.annotations.Mapper;
  * @since 2018-07-24
  */
 @Mapper
-public interface OracleGeneratorDao extends GeneratorDao {
-
-}
+public interface OracleGeneratorDao extends GeneratorDao {}
