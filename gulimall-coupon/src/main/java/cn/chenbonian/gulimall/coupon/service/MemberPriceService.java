@@ -1,8 +1,8 @@
 package cn.chenbonian.gulimall.coupon.service;
 
-import com.baomidou.mybatisplus.extension.service.IService;
 import cn.chenbonian.common.utils.PageUtils;
 import cn.chenbonian.gulimall.coupon.entity.MemberPriceEntity;
+import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.Map;
 
@@ -15,6 +15,5 @@ import java.util.Map;
  */
 public interface MemberPriceService extends IService<MemberPriceEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
+  PageUtils queryPage(Map<String, Object> params);
 }
-

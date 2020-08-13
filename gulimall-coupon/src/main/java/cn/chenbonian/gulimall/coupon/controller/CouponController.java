@@ -18,7 +18,7 @@ import java.util.Map;
  * @date 2020-08-13 22:13:24
  */
 @RestController
-@RequestMapping("coupon/coupon")
+@RequestMapping("/coupon/coupon")
 public class CouponController {
   @Autowired private CouponService couponService;
 
