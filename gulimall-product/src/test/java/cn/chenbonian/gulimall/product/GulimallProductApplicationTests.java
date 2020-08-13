@@ -2,7 +2,7 @@ package cn.chenbonian.gulimall.product;
 
 import cn.chenbonian.gulimall.product.entity.BrandEntity;
 import cn.chenbonian.gulimall.product.service.BrandService;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -26,9 +26,8 @@ public class GulimallProductApplicationTests {
   @Test
   public void contextLoads() {
     BrandEntity brandEntity = new BrandEntity();
-    brandEntity.setDescript("华为");
-
-    brandEntity.setName("华为");
+    brandEntity.setDescript("你好");
+    brandEntity.setName("你好");
     brandService.save(brandEntity);
     System.out.println("保存成功....");
     brandService.updateById(brandEntity);
