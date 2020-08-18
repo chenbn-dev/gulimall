@@ -2,7 +2,7 @@ package cn.chenbonian.gulimall.product;
 
 import cn.chenbonian.gulimall.product.entity.BrandEntity;
 import cn.chenbonian.gulimall.product.service.BrandService;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

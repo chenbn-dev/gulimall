@@ -6,10 +6,12 @@ spring:
     url: jdbc:mysql://39.104.117.161:3306/gulimall_pms?serverTimezone=GMT%2B8
     username: root
     password: root
-  #  cloud:
-  #    nacos:
-  #      discovery:
-  #        server-addr: 127.0.0.1:8848
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: gulimall-product
 #  jackson:
 #    date-format: yyyy-MM-dd HH:mm:ss
 
