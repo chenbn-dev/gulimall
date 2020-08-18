@@ -22,6 +22,8 @@ import java.util.Map;
 public class MemberController {
   @Autowired private MemberService memberService;
 
+
+  
   /** 列表 */
   @RequestMapping("/list")
   // @RequiresPermissions("member:member:list")
