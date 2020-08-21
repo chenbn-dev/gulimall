@@ -33,7 +33,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  *  2）、配置集：所有的配置的集合
  *
  *  3）、配置集ID：类似文件名。
- *      Data ID：类似文件名
+ *      Data ID：类似配置文件名
  *
  *  4）、配置分组：
  *      默认所有的配置集都属于：DEFAULT_GROUP；
